@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: massive
+Version: 2.1.0
+Summary: Official Massive (formerly Polygon.io) REST and Websocket client.
+License: MIT
+License-File: LICENSE
+Keywords: massive,free,rest,stock,market,data,api,massive.com,websocket,client
+Author: massive.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Requires-Dist: certifi (>=2022.5.18,<2027.0.0)
+Requires-Dist: urllib3 (>=1.26.9)
+Requires-Dist: websockets (>=14.0)
+Project-URL: Documentation, https://massive.com/docs
+Project-URL: Homepage, https://massive.com
+Project-URL: Repository, https://github.com/massive-com/client-python
