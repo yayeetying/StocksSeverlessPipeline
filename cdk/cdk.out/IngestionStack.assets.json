@@ -1,0 +1,34 @@
+{
+  "version": "39.0.0",
+  "files": {
+    "b33e93a5ac95405d8f5779192b9b71991d033a66a2fdf63ff4e6da4e31f096ce": {
+      "source": {
+        "path": "/Users/yayingliangli/Desktop/StocksSeverlessPipeline/lambdas/ingestion",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1",
+          "objectKey": "b33e93a5ac95405d8f5779192b9b71991d033a66a2fdf63ff4e6da4e31f096ce.zip",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-us-east-1"
+        }
+      }
+    },
+    "3c774201c2c0a4ec757829fd9b841abe728d2c235826cd3c346ec19218157403": {
+      "source": {
+        "path": "IngestionStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1",
+          "objectKey": "3c774201c2c0a4ec757829fd9b841abe728d2c235826cd3c346ec19218157403.json",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-us-east-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
