@@ -1,1 +1,21 @@
+# API Keys, etc.
 .env
+*.env
+
+# CDK build output
+cdk/cdk.out/
+cdk/__pycache__/
+cdk/stacks/__pycache__/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Lambda build zips
+lambdas/**/__pycache__/
+
+# for macOS
+.DS_Store
